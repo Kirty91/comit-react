@@ -12,6 +12,10 @@
       header {
         text-align: right;
       }
+      .header-class
+      {
+        text-align: center;
+      }
       nav ul {
         list-style: none;
         padding-left: 0;
@@ -22,10 +26,18 @@
       nav a {
         color: green;
       }
+      nav li >a 
+      {
+        color:#00aced;
+      }
+      #p-id
+      {
+        font-size: 14px;
+      }
     </style>
   </head>
   <body>
-    <header>
+    <header class="header-class">
       <h1>Home Page</h1>
 
       <nav>
@@ -44,13 +56,13 @@
     </header>
 
     <section>
-      <p>
+      <p id="p-id">
         Lorem ipsum <a href="#">dolor sit amet</a>, consectetur adipisicing
         elit. Veniam corporis aspernatur, obcaecati, voluptate veritatis ad
         fugiat voluptatum repellat deserunt dolor magnam sapiente expedita
         harum! Dolorem animi sit fuga. Asperiores, delectus!
       </p>
-      <p>
+      <p id="p-id">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde ad vero
         dolorem <a href="#">dignissimos doloribus perferendis velit</a>.
         Consequuntur maxime eum aut odio, ipsa saepe sed, a facere nisi
