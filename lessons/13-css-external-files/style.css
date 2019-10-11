@@ -1,0 +1,30 @@
+
+p {
+  font-size:18px;
+}
+header {
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  padding-left: 0;
+}
+nav ul li {
+  display: inline-block;
+}
+nav li >a:hover
+{
+  color:#00aced;
+}
+nav li >a 
+{
+  color:red;
+}
+#p-id
+{
+  font-size: 14px;
+}
+.active
+{
+color:#00aced;
+}
